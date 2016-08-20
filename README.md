@@ -8,7 +8,7 @@ Deploys [Kubernetes](http://kubernetes.io/) configuration using [kubectl](http:/
 * `username`: *Required.* Username for accessing to API Server.
 * `password`: *Required.* Password for accessing to API Server.
 * `namespace`: *Required.* Namespace name which should be used.
-* `insecure_skip_tls_verify`: *Optional.* If true, the server's certificate will not be checked for validity. This will make your HTTPS connections insecure. Default: `false`.
+* `skip_tls_verify`: *Optional.* If true, the server's certificate will not be checked for validity. This will make your HTTPS connections insecure. Default: `false`.
 * `cert_data`: *Optional.* Client certificate for TLS. Default: empty.
 * `key_data`: *Optional.* Client certificate key for TLS. Default: empty.
 * `ca_data`: *Optional.* Certificate authority. Default: empty.
